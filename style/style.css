@@ -1,0 +1,36 @@
+
+:root{
+    --black-color:#3A3A3A;
+}
+
+header{
+    margin: 30px 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Influencer-logo{
+    margin: 0px;
+}
+nav>div>ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.search{
+    width: 22px;
+}
+
+.cart{
+    width: 30px;
+}
